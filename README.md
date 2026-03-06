@@ -1,27 +1,63 @@
 # Podcast
 
-Private podcast pipeline: YouTube URL → M4A audio → RSS feed → Overcast (of een andere podcast-app).
+Privé podcast pipeline: YouTube-playlist → M4A audio → RSS feed → Overcast.
+
+Werkt volledig lokaal op de Mac. Geen GitHub Actions nodig.
 
 ## Hoe het werkt
 
-1. Trigger de GitHub Actions workflow met een YouTube URL (via de GitHub UI of een iOS Shortcut)
-2. De workflow downloadt het geluid als M4A, maakt/updatet `feed.xml`, en commit alles terug naar de repo
-3. Voeg de privé feed URL toe aan je podcast-app
+1. Voeg een video toe aan je YouTube-playlist op de iPhone (2 tikken)
+2. De Mac draait elk half uur `podcast_sync.py` via launchd
+3. Nieuwe videos worden gedownload (met Firefox-cookies), RSS wordt bijgewerkt, en alles wordt gepusht naar GitHub
+4. Overcast pikt de nieuwe aflevering automatisch op
 
 ---
 
-## Vereiste GitHub Secrets
+## Eerste keer instellen
 
-Ga naar **Settings → Secrets and variables → Actions** en voeg toe:
+### 1. Vereisten
 
-| Secret | Waarde |
-|--------|--------|
-| `FEED_BASE_URL` | `https://raw.githubusercontent.com/Morningcoffee74/Podcast/main` |
-| `FEED_TOKEN` | Een lang willekeurig geheim (zie hieronder) |
-
-Genereer een token:
 ```bash
-openssl rand -hex 32
+brew install yt-dlp
+```
+
+Zorg dat je ingelogd bent bij YouTube in **Firefox**.
+
+### 2. YouTube-playlist aanmaken
+
+Maak een playlist aan op je telefoon (mag Niet-vermeld zijn). Kopieer de playlist-URL.
+
+### 3. Plist configureren
+
+Vul de `PLAYLIST_URL` in in de plist:
+
+```
+~/Library/LaunchAgents/com.morningcoffee.podcast.plist
+```
+
+### 4. Handmatig testen (doe dit eerst)
+
+```bash
+export PLAYLIST_URL="https://www.youtube.com/playlist?list=..."
+export FEED_BASE_URL="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main"
+export FEED_TOKEN="519119c7eca349020fbab31a5c068d1ad7f746884415f36216ee6bd09759ce88"
+export REPO_PATH="/Users/wb-antal/Development/podcast"
+
+cd /Users/wb-antal/Development/podcast
+python3 podcast_sync.py
+```
+
+### 5. Launchd activeren
+
+```bash
+launchctl load ~/Library/LaunchAgents/com.morningcoffee.podcast.plist
+```
+
+Handmatig triggeren (zonder 30 minuten te wachten):
+
+```bash
+launchctl start com.morningcoffee.podcast
+tail -f ~/Library/Logs/podcast_sync.log
 ```
 
 ---
@@ -29,56 +65,24 @@ openssl rand -hex 32
 ## Privé feed URL
 
 ```
-https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml?token=JOUW_FEED_TOKEN
+https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml?token=519119c7eca349020fbab31a5c068d1ad7f746884415f36216ee6bd09759ce88
 ```
 
-Voeg deze URL toe in Overcast via **Add URL** (of vergelijkbare optie in je podcast-app).
+Voeg deze URL toe in Overcast via **Add URL**.
 
 ---
 
-## iOS Shortcut instellen
+## Problemen oplossen
 
-### Benodigde GitHub PAT
+**TCC-fout (macOS blokkeert toegang tot Firefox-profiel):**
+Systeeminstellingen → Privacy & Beveiliging → Volledige schijftoegang → voeg `/usr/bin/python3` toe.
 
-Maak een fine-grained Personal Access Token aan:
-- GitHub → Settings → Developer Settings → Personal access tokens → Fine-grained tokens
-- Repository access: alleen `Morningcoffee74/Podcast`
-- Permissions: **Actions** → Read and Write
-
-### "Get Contents of URL" configuratie
-
-| Veld | Waarde |
-|------|--------|
-| URL | `https://api.github.com/repos/Morningcoffee74/Podcast/actions/workflows/download.yml/dispatches` |
-| Method | POST |
-| Header: `Accept` | `application/vnd.github+json` |
-| Header: `Authorization` | `Bearer JOUW_GITHUB_PAT` |
-| Header: `X-GitHub-Api-Version` | `2022-11-28` |
-| Header: `Content-Type` | `application/json` |
-| Request body type | JSON |
-| Body: `ref` | `main` |
-| Body: `inputs.url` | _(YouTube URL uit Shortcut-invoer)_ |
-
-### Equivalent curl-commando
-
+**Logs bekijken:**
 ```bash
-curl -X POST \
-  -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer JOUW_GITHUB_PAT" \
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  -H "Content-Type: application/json" \
-  https://api.github.com/repos/Morningcoffee74/Podcast/actions/workflows/download.yml/dispatches \
-  -d '{"ref":"main","inputs":{"url":"YOUTUBE_URL"}}'
+tail -f ~/Library/Logs/podcast_sync.log
 ```
 
-Een succesvolle aanroep geeft HTTP **204** terug (geen body).
-
----
-
-## Handmatig testen
-
-Actions → **Download YouTube Audio** → **Run workflow** → plak een YouTube URL → **Run workflow**
-
-Na afloop:
-- Controleer of `audio/*.m4a` en `feed.xml` zijn gecommit
-- Valideer de feed via [Podba.se Validator](https://podba.se/validate/)
+**Launchd uitschakelen:**
+```bash
+launchctl unload ~/Library/LaunchAgents/com.morningcoffee.podcast.plist
+```
