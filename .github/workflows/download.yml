@@ -1,0 +1,107 @@
+name: Download YouTube Audio
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'YouTube URL to download'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install FFmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install yt-dlp
+        run: |
+          curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp \
+            -o /usr/local/bin/yt-dlp
+          chmod +x /usr/local/bin/yt-dlp
+
+      - name: Fetch video metadata
+        run: |
+          yt-dlp \
+            --dump-json \
+            --no-playlist \
+            "${{ github.event.inputs.url }}" \
+            > /tmp/video_meta.json
+
+      - name: Derive output filename and metadata
+        id: meta
+        run: |
+          python3 - <<'PYEOF'
+          import json, re, os
+
+          with open("/tmp/video_meta.json") as f:
+              meta = json.load(f)
+
+          title        = meta.get("title", "episode")
+          video_id     = meta.get("id", "unknown")
+          duration     = int(meta.get("duration") or 0)
+          channel_name = meta.get("channel") or meta.get("uploader") or "Podcast"
+
+          # Sanitize: keep alphanumerics, hyphens, dots; replace rest with _
+          safe_title = re.sub(r'[^\w\-.]', '_', title)
+          safe_title = re.sub(r'_+', '_', safe_title).strip('_')[:80]
+
+          filename = f"{safe_title}_{video_id}.m4a"
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"filename={filename}\n")
+              fh.write(f"duration={duration}\n")
+              fh.write(f"title={title}\n")
+              fh.write(f"channel_name={channel_name}\n")
+          PYEOF
+
+      - name: Download audio
+        run: |
+          yt-dlp \
+            --remote-components ejs:npm \
+            -x \
+            --audio-format m4a \
+            --audio-quality 0 \
+            --no-playlist \
+            -o "audio/${{ steps.meta.outputs.filename }}" \
+            "${{ github.event.inputs.url }}"
+
+      - name: Get audio file size
+        id: filesize
+        run: |
+          SIZE=$(stat -c%s "audio/${{ steps.meta.outputs.filename }}")
+          echo "bytes=$SIZE" >> "$GITHUB_OUTPUT"
+
+      - name: Update RSS feed
+        env:
+          FEED_BASE_URL: ${{ secrets.FEED_BASE_URL }}
+          FEED_TOKEN:    ${{ secrets.FEED_TOKEN }}
+          AUDIO_FILE:    ${{ steps.meta.outputs.filename }}
+          TITLE:         ${{ steps.meta.outputs.title }}
+          CHANNEL_NAME:  ${{ steps.meta.outputs.channel_name }}
+          DURATION:      ${{ steps.meta.outputs.duration }}
+          FILE_SIZE:     ${{ steps.filesize.outputs.bytes }}
+        run: python3 generate_rss.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "audio/${{ steps.meta.outputs.filename }}" feed.xml
+          git diff --staged --quiet || git commit -m "Add episode: ${{ steps.meta.outputs.title }}"
+          git push
