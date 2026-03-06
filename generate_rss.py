@@ -25,10 +25,14 @@ TITLE        = os.environ["TITLE"]
 CHANNEL_NAME = os.environ.get("CHANNEL_NAME", "Podcast")
 DURATION     = int(os.environ["DURATION"])
 FILE_SIZE    = int(os.environ["FILE_SIZE"])
+DESCRIPTION  = os.environ.get("DESCRIPTION", "")
+THUMBNAIL    = os.environ.get("THUMBNAIL", "")
 
-FEED_PATH  = "feed.xml"
-ITUNES_NS  = "http://www.itunes.com/dtds/podcast-1.0.dtd"
-ATOM_NS    = "http://www.w3.org/2005/Atom"
+FEED_PATH     = "feed.xml"
+ITUNES_NS     = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+ATOM_NS       = "http://www.w3.org/2005/Atom"
+PODCAST_TITLE = "YouTube Playlist"
+PODCAST_IMAGE = "https://www.youtube.com/img/desktop/yt_1200.png"
 
 ET.register_namespace("itunes", ITUNES_NS)
 ET.register_namespace("atom",   ATOM_NS)
@@ -53,7 +57,7 @@ def duration_str(seconds):
     return f"{h:02d}:{m:02d}:{s:02d}"
 
 
-def build_item(title, audio_filename, pub_date, duration_secs, file_size):
+def build_item(title, audio_filename, pub_date, duration_secs, file_size, description="", thumbnail=""):
     item = ET.Element("item")
     ET.SubElement(item, "title").text = title
     ET.SubElement(item, "guid", isPermaLink="false").text = audio_url(audio_filename)
@@ -62,6 +66,11 @@ def build_item(title, audio_filename, pub_date, duration_secs, file_size):
                   url=audio_url(audio_filename),
                   length=str(file_size),
                   type="audio/mp4")
+    if description:
+        ET.SubElement(item, "description").text = description
+        ET.SubElement(item, f"{{{ITUNES_NS}}}summary").text = description
+    if thumbnail:
+        ET.SubElement(item, f"{{{ITUNES_NS}}}image", href=thumbnail)
     ET.SubElement(item, f"{{{ITUNES_NS}}}duration").text = duration_str(duration_secs)
     ET.SubElement(item, f"{{{ITUNES_NS}}}explicit").text = "no"
     return item
@@ -71,10 +80,10 @@ def create_feed(first_item, channel_name):
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
 
-    ET.SubElement(channel, "title").text       = channel_name
-    ET.SubElement(channel, "description").text = f"Private podcast feed - {channel_name}"
-    ET.SubElement(channel, "language").text    = "en-us"
-    ET.SubElement(channel, "link").text        = feed_url()
+    ET.SubElement(channel, "title").text        = PODCAST_TITLE
+    ET.SubElement(channel, "description").text  = "Private YouTube playlist podcast feed"
+    ET.SubElement(channel, "language").text     = "en-us"
+    ET.SubElement(channel, "link").text         = feed_url()
     ET.SubElement(channel, "lastBuildDate").text = rfc2822_now()
 
     ET.SubElement(channel, f"{{{ATOM_NS}}}link",
@@ -82,7 +91,13 @@ def create_feed(first_item, channel_name):
                   rel="self",
                   type="application/rss+xml")
 
-    ET.SubElement(channel, f"{{{ITUNES_NS}}}author").text   = channel_name
+    image = ET.SubElement(channel, "image")
+    ET.SubElement(image, "url").text   = PODCAST_IMAGE
+    ET.SubElement(image, "title").text = PODCAST_TITLE
+    ET.SubElement(image, "link").text  = feed_url()
+
+    ET.SubElement(channel, f"{{{ITUNES_NS}}}author").text   = PODCAST_TITLE
+    ET.SubElement(channel, f"{{{ITUNES_NS}}}image", href=PODCAST_IMAGE)
     ET.SubElement(channel, f"{{{ITUNES_NS}}}explicit").text = "no"
     ET.SubElement(channel, f"{{{ITUNES_NS}}}type").text     = "episodic"
 
@@ -136,6 +151,8 @@ def main():
         pub_date=pub_date,
         duration_secs=DURATION,
         file_size=FILE_SIZE,
+        description=DESCRIPTION,
+        thumbnail=THUMBNAIL,
     )
 
     if os.path.exists(FEED_PATH):
