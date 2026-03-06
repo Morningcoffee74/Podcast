@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Eliot Prince</title>
     <description>Private podcast feed - Eliot Prince</description>
     <language>en-us</language>
-    <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml?token=519119c7eca349020fbab31a5c068d1ad7f746884415f36216ee6bd09759ce88</link>
+    <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
     <lastBuildDate>Fri, 06 Mar 2026 14:10:01 GMT</lastBuildDate>
-    <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml?token=519119c7eca349020fbab31a5c068d1ad7f746884415f36216ee6bd09759ce88" rel="self" type="application/rss+xml"></atom:link>
+    <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <itunes:author>Eliot Prince</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>

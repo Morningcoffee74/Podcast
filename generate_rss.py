@@ -39,7 +39,7 @@ def audio_url(filename):
 
 
 def feed_url():
-    return f"{BASE_URL}/feed.xml?token={TOKEN}"
+    return f"{BASE_URL}/feed.xml"
 
 
 def rfc2822_now():
@@ -68,10 +68,7 @@ def build_item(title, audio_filename, pub_date, duration_secs, file_size):
 
 
 def create_feed(first_item, channel_name):
-    rss = ET.Element("rss", version="2.0", **{
-        "xmlns:itunes": ITUNES_NS,
-        "xmlns:atom":   ATOM_NS,
-    })
+    rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
 
     ET.SubElement(channel, "title").text       = channel_name
