@@ -5,11 +5,19 @@
     <description>Private podcast feed - Eliot Prince</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Fri, 06 Mar 2026 14:10:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 14:24:34 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <itunes:author>Eliot Prince</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>567 Hours of Claude Code Lessons in 20 Minutes</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/567_Hours_of_Claude_Code_Lessons_in_20_Minutes_rVEoyx349Hk.m4a</guid>
+      <pubDate>Fri, 06 Mar 2026 14:24:34 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/567_Hours_of_Claude_Code_Lessons_in_20_Minutes_rVEoyx349Hk.m4a" length="46595110" type="audio/mp4"></enclosure>
+      <itunes:duration>00:20:48</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>7 Powerful Claude COWORK Tips I Wish I'd Known from Day One</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/7_Powerful_Claude_COWORK_Tips_I_Wish_I_d_Known_from_Day_One_SzOI5zU0pLw.m4a</guid>
