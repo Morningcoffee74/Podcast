@@ -60,10 +60,10 @@ MANUAL_RUN = os.environ.get("PODCAST_MANUAL_RUN") == "1"
 
 
 def notify(title: str, message: str) -> None:
-    """Send a macOS notification (only during manual runs)."""
+    """Show a macOS dialog (only during manual runs)."""
     if not MANUAL_RUN:
         return
-    script = f'display notification "{message}" with title "{title}"'
+    script = f'display dialog "{message}" with title "{title}" buttons {{"OK"}} default button "OK"'
     subprocess.run(["osascript", "-e", script])
 
 
