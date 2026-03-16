@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Mon, 16 Mar 2026 01:45:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 01:50:02 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,81 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>She quit, picked up AI, and shipped in 30 days what her team planned for Q3.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/She_quit_picked_up_AI_and_shipped_in_30_days_what_her_team_planned_for_Q3._zCW-k5fFRgQ.m4a</guid>
+      <pubDate>Mon, 16 Mar 2026 01:50:02 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/She_quit_picked_up_AI_and_shipped_in_30_days_what_her_team_planned_for_Q3._zCW-k5fFRgQ.m4a" length="36532001" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-one-solo-founder?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening with solo founders and AI productivity inside your company? The common story is that solo founders are outliers with nothing to teach enterprise teams — but the reality is more complicated.
+In this video, I share the inside scoop on what solo founder AI workflows reveal about unleashing talent at scale:
+
+- Why AI agents reduce coordination overhead, not just headcount
+- How taste without conviction leaves your best people stuck
+- What "speed of control" means for managing AI-powered workflows
+- Where extraordinary talent goes when companies refuse to remove overhead
+
+Execs and operators who ignore these patterns will keep losing their best people to solo founding — not because it's glamorous, but because it's the only place those people feel unblocked.
+
+Chapters
+0:00 Introduction: The 25% Problem
+1:45 Solo Founders Hitting Millions With Zero Employees
+4:30 What Harvard's P&amp;G Research Actually Shows
+7:15 AI as a Coordination Proxy Inside Big Companies
+9:45 Taste vs. Conviction: What Everyone Gets Wrong
+14:30 Speed of Control, Not Just Span of Control
+18:00 Extraordinary People Were Never Blocked by Ability
+22:00 AI Grows Talent — It Doesn't Just Unleash It
+25:30 The Averaging Cost Problem in Your Organization
+28:30 Three Traits to Identify AI-Ready Talent
+33:00 Ambition, Autonomy, and the Solo Founding Trap
+37:00 What Leaders Must Do Before It's Too Late
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-one-solo-founder?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening with solo founders and AI productivity inside your company? The common story is that solo founders are outliers with nothing to teach enterprise teams — but the reality is more complicated.
+In this video, I share the inside scoop on what solo founder AI workflows reveal about unleashing talent at scale:
+
+- Why AI agents reduce coordination overhead, not just headcount
+- How taste without conviction leaves your best people stuck
+- What "speed of control" means for managing AI-powered workflows
+- Where extraordinary talent goes when companies refuse to remove overhead
+
+Execs and operators who ignore these patterns will keep losing their best people to solo founding — not because it's glamorous, but because it's the only place those people feel unblocked.
+
+Chapters
+0:00 Introduction: The 25% Problem
+1:45 Solo Founders Hitting Millions With Zero Employees
+4:30 What Harvard's P&amp;G Research Actually Shows
+7:15 AI as a Coordination Proxy Inside Big Companies
+9:45 Taste vs. Conviction: What Everyone Gets Wrong
+14:30 Speed of Control, Not Just Span of Control
+18:00 Extraordinary People Were Never Blocked by Ability
+22:00 AI Grows Talent — It Doesn't Just Unleash It
+25:30 The Averaging Cost Problem in Your Organization
+28:30 Three Traits to Identify AI-Ready Talent
+33:00 Ambition, Autonomy, and the Solo Founding Trap
+37:00 What Leaders Must Do Before It's Too Late
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/zCW-k5fFRgQ/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:37:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Claude Opus 4.6: The Biggest AI Jump I've Covered--It's Not Close. (Here's What You Need to Know)</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Opus_4.6_The_Biggest_AI_Jump_I_ve_Covered--It_s_Not_Close._Here_s_What_Yo_JKk77rzOL34.m4a</guid>
