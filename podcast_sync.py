@@ -56,6 +56,17 @@ log = logging.getLogger(__name__)
 # Helpers
 # ---------------------------------------------------------------------------
 
+MANUAL_RUN = os.environ.get("PODCAST_MANUAL_RUN") == "1"
+
+
+def notify(title: str, message: str) -> None:
+    """Send a macOS notification (only during manual runs)."""
+    if not MANUAL_RUN:
+        return
+    script = f'display notification "{message}" with title "{title}"'
+    subprocess.run(["osascript", "-e", script])
+
+
 def indent_xml(elem, level=0):
     pad = "\n" + "  " * level
     if len(elem):
@@ -240,7 +251,7 @@ def cleanup_old_episodes(state: dict) -> tuple[dict, list[str]]:
 
 def git_commit_and_push(new_files: list[str], titles: list[str], removed: bool = False) -> None:
     if removed:
-        commit_msg = "Remove episodes older than 30 days"
+        commit_msg = f"Remove episodes older than {RETENTION_DAYS} days"
     elif len(titles) == 1:
         commit_msg = "Add episode: " + titles[0]
     else:
@@ -305,6 +316,7 @@ def main() -> None:
 
         except subprocess.CalledProcessError as exc:
             log.error("Failed to process %s (%s): %s", title, video_id, exc)
+            notify("Podcast Sync ❌", f"Download mislukt: {title[:60]}")
             continue
 
     if new_files or removed_files:
@@ -312,10 +324,17 @@ def main() -> None:
         commit_titles = new_titles or ["cleanup"]
         try:
             git_commit_and_push(commit_files, commit_titles, removed=bool(removed_files and not new_files))
+            if new_titles:
+                summary = new_titles[0] if len(new_titles) == 1 else f"{len(new_titles)} nieuwe afleveringen"
+                notify("Podcast Sync ✅", f"Gepubliceerd: {summary[:80]}")
+            if removed_files and not new_files:
+                notify("Podcast Sync 🧹", f"{len(removed_files)} oude afleveringen verwijderd")
         except subprocess.CalledProcessError as exc:
             log.error("Git push failed: %s", exc)
+            notify("Podcast Sync ❌", f"Git push mislukt: {exc}")
     else:
         log.info("No new episodes.")
+        notify("Podcast Sync ℹ️", "Geen nieuwe afleveringen gevonden")
 
     log.info("=== podcast_sync done ===")
 

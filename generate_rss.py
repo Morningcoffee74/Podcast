@@ -14,7 +14,6 @@ Environment variables (set by GitHub Actions workflow):
 """
 
 import os
-from datetime import timezone
 from email.utils import formatdate
 from xml.etree import ElementTree as ET
 
