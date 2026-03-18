@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Wed, 18 Mar 2026 02:09:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 17:57:08 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,89 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>ChatGPT Health Identified Respiratory Failure. Then It Said Wait.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/ChatGPT_Health_Identified_Respiratory_Failure._Then_It_Said_Wait._4HeS_C02yAE.m4a</guid>
+      <pubDate>Wed, 18 Mar 2026 17:57:08 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/ChatGPT_Health_Identified_Respiratory_Failure._Then_It_Said_Wait._4HeS_C02yAE.m4a" length="22847907" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/a-single-sentence-from-a-family-member?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside AI agents when they give you the wrong answer? 
+
+The common story is that smarter models mean safer agents — but the reality is that reasoning traces and final outputs often operate as two entirely separate processes.In this video, I share the inside scoop on why AI agents fail in production and how to build evals that actually catch it:
+
+- Why agents perform worst precisely where the stakes are highest
+- How reasoning traces routinely contradict an agent's final recommendation
+- What factorial stress testing reveals that standard benchmarks completely miss
+- Where to build the four-layer architecture that keeps agents honest in production
+
+Operators who ignore this now will face it later — through customer harm, regulatory pressure, or an insurance policy they can't obtain.
+
+Chapters
+00:00 When your AI agent knows the answer but says the opposite
+01:30 The Mount Sinai ChatGPT Health study explained
+03:00 Why this matters beyond healthcare
+04:15 Failure mode 1: The inverted U (agents fail at the extremes)
+06:30 Failure mode 2: Reasoning trace contradicts the output
+08:45 Failure mode 3: Social context hijacks agent judgment
+10:30 Failure mode 4: Guardrails that fire on vibes, not real risk
+12:30 The Mount Sinai methodology: factorial design
+14:15 Building a reusable eval context library
+16:00 Layer 1: Progressive autonomy, not full autonomy
+17:30 Layer 2: Deterministic validation rules
+18:45 Layer 3: Building a continuous eval flywheel
+20:30 Layer 4: Factorial stress testing in production
+22:00 How to front-load eval infrastructure
+23:30 The coming reality of AI insurance for agents
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/a-single-sentence-from-a-family-member?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside AI agents when they give you the wrong answer? 
+
+The common story is that smarter models mean safer agents — but the reality is that reasoning traces and final outputs often operate as two entirely separate processes.In this video, I share the inside scoop on why AI agents fail in production and how to build evals that actually catch it:
+
+- Why agents perform worst precisely where the stakes are highest
+- How reasoning traces routinely contradict an agent's final recommendation
+- What factorial stress testing reveals that standard benchmarks completely miss
+- Where to build the four-layer architecture that keeps agents honest in production
+
+Operators who ignore this now will face it later — through customer harm, regulatory pressure, or an insurance policy they can't obtain.
+
+Chapters
+00:00 When your AI agent knows the answer but says the opposite
+01:30 The Mount Sinai ChatGPT Health study explained
+03:00 Why this matters beyond healthcare
+04:15 Failure mode 1: The inverted U (agents fail at the extremes)
+06:30 Failure mode 2: Reasoning trace contradicts the output
+08:45 Failure mode 3: Social context hijacks agent judgment
+10:30 Failure mode 4: Guardrails that fire on vibes, not real risk
+12:30 The Mount Sinai methodology: factorial design
+14:15 Building a reusable eval context library
+16:00 Layer 1: Progressive autonomy, not full autonomy
+17:30 Layer 2: Deterministic validation rules
+18:45 Layer 3: Building a continuous eval flywheel
+20:30 Layer 4: Factorial stress testing in production
+22:00 How to front-load eval infrastructure
+23:30 The coming reality of AI insurance for agents
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/4HeS_C02yAE/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:23:33</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Anthropic Didn't Build a New Browser. They Did Something Smarter.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_Didn_t_Build_a_New_Browser._They_Did_Something_Smarter._QT7W_uHjqWE.m4a</guid>
