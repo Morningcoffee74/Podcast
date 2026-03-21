@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Wed, 18 Mar 2026 17:57:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 20:30:30 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,71 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Your AI Agent Fails 97.5% of Real Work. The Fix Isn't Coding.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Your_AI_Agent_Fails_97.5_of_Real_Work._The_Fix_Isn_t_Coding._awV2kJzh8zk.m4a</guid>
+      <pubDate>Sat, 21 Mar 2026 20:30:30 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Your_AI_Agent_Fails_97.5_of_Real_Work._The_Fix_Isn_t_Coding._awV2kJzh8zk.m4a" length="56018687" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/55-of-employers-regret-ai-driven?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening with AI agents inside real enterprise deployments? The common story is that AI agents are transforming work at scale — but the reality is more complicated.
+
+In this video, I share the inside scoop on why the memory wall is the most dangerous gap in AI strategy right now:
+
+ • Why AI agents succeed at tasks but fail at jobs
+ • How missing organizational context caused a production database wipeout
+ • What three new studies reveal about agent performance over time
+ • Where human judgment and evals become your only real safeguard
+
+Chapters
+0:00 The memory wall no one is talking about
+2:30 The AI agent that wiped 1.9M rows of student data
+6:00 Remote Labor Index: 97.5% failure rate on real work
+8:00 SWE-CI: AI can't maintain code over time
+10:00 Harvard data: why senior employees are surviving AI
+11:30 The same pattern in legal, marketing, and finance
+13:30 The rehiring wave: what Gartner and Forrester are finding
+14:30 The eval problem most companies are getting wrong
+17:30 Contextual stewardship: the real human job right now
+20:30 What you should actually do this week
+
+The humans who invest in contextual stewardship and evaluation design will become the most valuable people in their organizations — and the ones who don't will find themselves competing with machines on the dimensions machines are improving fastest.
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/55-of-employers-regret-ai-driven?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening with AI agents inside real enterprise deployments? The common story is that AI agents are transforming work at scale — but the reality is more complicated.
+
+In this video, I share the inside scoop on why the memory wall is the most dangerous gap in AI strategy right now:
+
+ • Why AI agents succeed at tasks but fail at jobs
+ • How missing organizational context caused a production database wipeout
+ • What three new studies reveal about agent performance over time
+ • Where human judgment and evals become your only real safeguard
+
+Chapters
+0:00 The memory wall no one is talking about
+2:30 The AI agent that wiped 1.9M rows of student data
+6:00 Remote Labor Index: 97.5% failure rate on real work
+8:00 SWE-CI: AI can't maintain code over time
+10:00 Harvard data: why senior employees are surviving AI
+11:30 The same pattern in legal, marketing, and finance
+13:30 The rehiring wave: what Gartner and Forrester are finding
+14:30 The eval problem most companies are getting wrong
+17:30 Contextual stewardship: the real human job right now
+20:30 What you should actually do this week
+
+The humans who invest in contextual stewardship and evaluation design will become the most valuable people in their organizations — and the ones who don't will find themselves competing with machines on the dimensions machines are improving fastest.
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/awV2kJzh8zk/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:29:26</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>ChatGPT Health Identified Respiratory Failure. Then It Said Wait.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/ChatGPT_Health_Identified_Respiratory_Failure._Then_It_Said_Wait._4HeS_C02yAE.m4a</guid>
