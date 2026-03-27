@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Sat, 21 Mar 2026 20:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 01:18:49 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,93 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/McKinsey_Says_1_Trillion_In_Sales_Will_Go_Through_AI_Agents._Most_Businesses_Are_BE4RclIGDmY.m4a</guid>
+      <pubDate>Fri, 27 Mar 2026 01:18:49 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/McKinsey_Says_1_Trillion_In_Sales_Will_Go_Through_AI_Agents._Most_Businesses_Are_BE4RclIGDmY.m4a" length="51187487" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-your-systems-are?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the infrastructure layer that determines whether AI agents actually work?
+
+The common story is that OpenClaw and personal AI agents are the future — but the reality is that none of it functions unless companies rebuild their entire data architecture to be agent-readable and agent-writable.
+
+In this video, I share the inside scoop on the structural precondition nobody is talking about:
+
+ • Why 20 years of anti-bot architecture now blocks your best customers
+ • How wrapping an API in MCP falls short of real agent access
+ • What Stripe and SAP reveal about the depth of this challenge
+ • Where four common executive misconceptions lead companies astray
+
+Operators who wait and see while competitors clean their data stacks are signing their own death warrants — the ecosystem is moving faster than quarterly planning cycles allow.
+
+Chapters
+00:00 The fences keeping your best customers out
+02:00 OpenClaw only works if companies rebuild
+04:00 Why vendors resist agent-readable systems
+05:45 Google, Apple, and the Napster parallel
+07:30 McKinsey's trillion-dollar agent commerce projection
+09:30 When the agent skips your offer entirely
+11:30 Why wrapping an MCP isn't enough
+13:30 Stripe's deeper data challenge with Sigma
+15:30 SAP's Grand Canyon gap
+17:15 Misconception 1: Agent discovery is like SEO
+19:00 Misconception 2: Schemas only work for simple products
+21:00 Misconception 3: Customers won't trust agents
+23:00 Misconception 4: Wait and see will kill you
+25:00 The 80% of meaning stuck in tribal knowledge
+27:00 Build for agents first, humans follow
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-your-systems-are?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the infrastructure layer that determines whether AI agents actually work?
+
+The common story is that OpenClaw and personal AI agents are the future — but the reality is that none of it functions unless companies rebuild their entire data architecture to be agent-readable and agent-writable.
+
+In this video, I share the inside scoop on the structural precondition nobody is talking about:
+
+ • Why 20 years of anti-bot architecture now blocks your best customers
+ • How wrapping an API in MCP falls short of real agent access
+ • What Stripe and SAP reveal about the depth of this challenge
+ • Where four common executive misconceptions lead companies astray
+
+Operators who wait and see while competitors clean their data stacks are signing their own death warrants — the ecosystem is moving faster than quarterly planning cycles allow.
+
+Chapters
+00:00 The fences keeping your best customers out
+02:00 OpenClaw only works if companies rebuild
+04:00 Why vendors resist agent-readable systems
+05:45 Google, Apple, and the Napster parallel
+07:30 McKinsey's trillion-dollar agent commerce projection
+09:30 When the agent skips your offer entirely
+11:30 Why wrapping an MCP isn't enough
+13:30 Stripe's deeper data challenge with Sigma
+15:30 SAP's Grand Canyon gap
+17:15 Misconception 1: Agent discovery is like SEO
+19:00 Misconception 2: Schemas only work for simple products
+21:00 Misconception 3: Customers won't trust agents
+23:00 Misconception 4: Wait and see will kill you
+25:00 The 80% of meaning stuck in tribal knowledge
+27:00 Build for agents first, humans follow
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/BE4RclIGDmY/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:27:46</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Your AI Agent Fails 97.5% of Real Work. The Fix Isn't Coding.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Your_AI_Agent_Fails_97.5_of_Real_Work._The_Fix_Isn_t_Coding._awV2kJzh8zk.m4a</guid>
