@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Fri, 27 Mar 2026 01:18:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 01:24:05 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,158 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>A Markdown File Just Replaced Your Most Expensive Design Meeting. (Google Stitch)</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/A_Markdown_File_Just_Replaced_Your_Most_Expensive_Design_Meeting._Google_Stitch_CDClFY-R0dI.m4a</guid>
+      <pubDate>Sat, 28 Mar 2026 01:24:05 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/A_Markdown_File_Just_Replaced_Your_Most_Expensive_Design_Meeting._Google_Stitch_CDClFY-R0dI.m4a" length="55356404" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts &amp; Guide: https://natesnewsletter.substack.com/p/a-0-design-sprint-used-to-be-impossible?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the creative tools space when design, video, and 3D all move to the command line in the same month?
+
+The common story is that AI is replacing designers — but the reality is that three releases in the last few weeks collapsed the cost of creative exploration while raising the value of taste and judgment.
+
+In this video, I share the inside scoop on how design is following development to the terminal:
+
+ • Why Google Stitch tanked Figma stock with free vibe design
+ • How Remotion turns video production into React components
+ • What Blender MCP does with 1,500 operators and natural language
+ • Where scheduled creative pipelines become the real unlock
+
+Builders who combine these primitives with scheduling and workflows will produce at scales that were impossible six months ago — the floor dropped, but the ceiling for excellence didn't move.
+
+Chapters
+00:00 The world is overloaded in AI slop
+02:00 Three releases that matter for builders
+04:00 MCP as the USB plug for creative tools
+06:00 The 2010s product-design-engineering triangle
+08:30 Google Stitch: voice to UI in real time
+11:00 The design.markdown file nobody covered
+13:30 Why Google shipped Claude Code skills
+15:30 Remotion: video becomes code
+18:00 Programmable video vs generative video
+20:30 Blender MCP: 3D without the learning curve
+23:00 Combining primitives with scheduled pipelines
+25:30 The floor dropped but the ceiling didn't move
+27:30 What gates creative work now is you
+29:00 Use your new superpowers wisely
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts &amp; Guide: https://natesnewsletter.substack.com/p/a-0-design-sprint-used-to-be-impossible?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the creative tools space when design, video, and 3D all move to the command line in the same month?
+
+The common story is that AI is replacing designers — but the reality is that three releases in the last few weeks collapsed the cost of creative exploration while raising the value of taste and judgment.
+
+In this video, I share the inside scoop on how design is following development to the terminal:
+
+ • Why Google Stitch tanked Figma stock with free vibe design
+ • How Remotion turns video production into React components
+ • What Blender MCP does with 1,500 operators and natural language
+ • Where scheduled creative pipelines become the real unlock
+
+Builders who combine these primitives with scheduling and workflows will produce at scales that were impossible six months ago — the floor dropped, but the ceiling for excellence didn't move.
+
+Chapters
+00:00 The world is overloaded in AI slop
+02:00 Three releases that matter for builders
+04:00 MCP as the USB plug for creative tools
+06:00 The 2010s product-design-engineering triangle
+08:30 Google Stitch: voice to UI in real time
+11:00 The design.markdown file nobody covered
+13:30 Why Google shipped Claude Code skills
+15:30 Remotion: video becomes code
+18:00 Programmable video vs generative video
+20:30 Blender MCP: 3D without the learning curve
+23:00 Combining primitives with scheduled pipelines
+25:30 The floor dropped but the ceiling didn't move
+27:30 What gates creative work now is you
+29:00 Use your new superpowers wisely
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/CDClFY-R0dI/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:29:34</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>The 7 Levels of Building ELITE Websites with Claude Code</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/The_7_Levels_of_Building_ELITE_Websites_with_Claude_Code_1PXFAFMgdns.m4a</guid>
+      <pubDate>Sat, 28 Mar 2026 01:06:56 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/The_7_Levels_of_Building_ELITE_Websites_with_Claude_Code_1PXFAFMgdns.m4a" length="84517088" type="audio/mp4"></enclosure>
+      <description>⚡Master Claude Code, Build Your Agency, Land Your First Client⚡
+https://www.skool.com/chase-ai
+
+🔥FREE community with tons of AI resources🔥 
+https://www.skool.com/chase-ai-community
+
+💻 Need custom work? Book a consult 💻
+https://chaseai.io
+
+Mastering Claude Code frontend design can be difficult, especially without a roadmap.
+
+In this video, I give you that map as I break down the 7 levels of Claude Code design progression, giving you the exact skills you need to master and the traps you need to avoid in order to never stall in your Claude Code progress.
+
+⏰TIMESTAMPS:
+
+0:00 Intro
+0:30 - Level 1
+4:24 - Level 2
+7:53 - Level 3
+12:56 - Level 4
+19:48 - Level 5
+28:05 - Level 6
+34:36 - Level 7
+
+RESOURCES FROM THIS VIDEO:
+➡️ Master Claude Code: https://www.skool.com/chase-ai
+➡️ My Website: https://www.chaseai.io
+
+#claudecode</description>
+      <itunes:summary>⚡Master Claude Code, Build Your Agency, Land Your First Client⚡
+https://www.skool.com/chase-ai
+
+🔥FREE community with tons of AI resources🔥 
+https://www.skool.com/chase-ai-community
+
+💻 Need custom work? Book a consult 💻
+https://chaseai.io
+
+Mastering Claude Code frontend design can be difficult, especially without a roadmap.
+
+In this video, I give you that map as I break down the 7 levels of Claude Code design progression, giving you the exact skills you need to master and the traps you need to avoid in order to never stall in your Claude Code progress.
+
+⏰TIMESTAMPS:
+
+0:00 Intro
+0:30 - Level 1
+4:24 - Level 2
+7:53 - Level 3
+12:56 - Level 4
+19:48 - Level 5
+28:05 - Level 6
+34:36 - Level 7
+
+RESOURCES FROM THIS VIDEO:
+➡️ Master Claude Code: https://www.skool.com/chase-ai
+➡️ My Website: https://www.chaseai.io
+
+#claudecode</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/1PXFAFMgdns/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:38:46</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/McKinsey_Says_1_Trillion_In_Sales_Will_Go_Through_AI_Agents._Most_Businesses_Are_BE4RclIGDmY.m4a</guid>
