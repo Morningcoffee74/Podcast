@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Sat, 28 Mar 2026 01:24:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 22:35:13 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,255 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Anthropic Just Gave You 3 Tools That Work While You're Gone.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_Just_Gave_You_3_Tools_That_Work_While_You_re_Gone._3e7gmNPr5Vo.m4a</guid>
+      <pubDate>Mon, 30 Mar 2026 22:35:13 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_Just_Gave_You_3_Tools_That_Work_While_You_re_Gone._3e7gmNPr5Vo.m4a" length="53891619" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts &amp; Guide: https://natesnewsletter.substack.com/p/90-of-what-you-build-on-your-ai-agent?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside Anthropic's response to OpenClaw when they ship Dispatch and Computer Use in the same week?
+
+The common story is that these are just mobile chat features — but the reality is a complete orchestration layer that lets you spawn parallel agent sessions from your phone while your desktop executes work without you.
+
+In this video, I share the inside scoop on the three primitives that finally make always-on agents real:
+
+ • Why scheduled tasks run on Anthropic's cloud without your laptop
+ • How Dispatch turns your phone into a command surface for parallel agents
+ • What Computer Use unlocks for apps that will never have MCP servers
+ • Where the management mindset separates real work from demo theater
+
+Builders who keep expecting agents to create more work for them will miss the entire point — the only metric that matters is whether tasks get off your desk, not onto it.
+
+Chapters
+00:00 Anthropic finished shipping OpenClaw for Claude
+02:30 The distinction between work on and off your desk
+04:30 Primitive 1: Scheduled tasks in the cloud
+07:00 Use cases when you're not a developer
+09:30 Primitive 2: Dispatch as an orchestration layer
+12:00 Pavel's 48-hour dispatch experiment
+14:30 Parallel asynchronous work from your pocket
+16:30 Primitive 3: Computer Use for apps without MCP
+19:00 Old JIRA, bespoke ERP, antique SAP instances
+21:30 OpenClaw vs Anthropic: self-hosted vs managed
+24:00 The framework for getting work off your desk
+26:30 Compound signal detection with Open Brain
+28:00 Learning to trust agents when you walk away
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts &amp; Guide: https://natesnewsletter.substack.com/p/90-of-what-you-build-on-your-ai-agent?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside Anthropic's response to OpenClaw when they ship Dispatch and Computer Use in the same week?
+
+The common story is that these are just mobile chat features — but the reality is a complete orchestration layer that lets you spawn parallel agent sessions from your phone while your desktop executes work without you.
+
+In this video, I share the inside scoop on the three primitives that finally make always-on agents real:
+
+ • Why scheduled tasks run on Anthropic's cloud without your laptop
+ • How Dispatch turns your phone into a command surface for parallel agents
+ • What Computer Use unlocks for apps that will never have MCP servers
+ • Where the management mindset separates real work from demo theater
+
+Builders who keep expecting agents to create more work for them will miss the entire point — the only metric that matters is whether tasks get off your desk, not onto it.
+
+Chapters
+00:00 Anthropic finished shipping OpenClaw for Claude
+02:30 The distinction between work on and off your desk
+04:30 Primitive 1: Scheduled tasks in the cloud
+07:00 Use cases when you're not a developer
+09:30 Primitive 2: Dispatch as an orchestration layer
+12:00 Pavel's 48-hour dispatch experiment
+14:30 Parallel asynchronous work from your pocket
+16:30 Primitive 3: Computer Use for apps without MCP
+19:00 Old JIRA, bespoke ERP, antique SAP instances
+21:30 OpenClaw vs Anthropic: self-hosted vs managed
+24:00 The framework for getting work off your desk
+26:30 Compound signal detection with Open Brain
+28:00 Learning to trust agents when you walk away
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/3e7gmNPr5Vo/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:29:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_OpenAI_and_Microsoft_Just_Agreed_on_One_File_Format._It_Changes_Everyt_0cVuMHaYEHE.m4a</guid>
+      <pubDate>Mon, 30 Mar 2026 22:34:37 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_OpenAI_and_Microsoft_Just_Agreed_on_One_File_Format._It_Changes_Everyt_0cVuMHaYEHE.m4a" length="48948534" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/your-ai-skills-fail-10-of-the-time?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the skills ecosystem when agents now call skills more often than humans do?
+
+The common story is that skills are just personal configuration files from October — but the reality is that skills have become organizational infrastructure, and most teams haven't updated their approach to match.
+
+In this video, I share the inside scoop on how to build agent-readable skills that actually compound:
+
+ • Why the description field is where most skills go to die
+ • How agent-first design changes handoffs and contracts
+ • What three-tier skill architecture looks like for teams
+ • Where community repositories fill the domain-specific gap
+
+Builders who keep treating skills as glorified prompts will miss the compounding advantage — the practitioners who version, test, and share skills are pulling ahead every week.
+
+Chapters
+00:00 Skills launched in October, everything changed since
+02:30 Four big trends reshaping the skills landscape
+05:00 Skills compound, prompts evaporate
+07:00 The specialist stack pattern in production
+09:30 Real estate GP with 50,000 lines of skills
+11:30 How to build a skill that actually works
+14:00 The single-line description gotcha
+16:00 Methodology body: reasoning over procedures
+18:00 Agent-first skill design principles
+20:30 Descriptions as routing signals, outputs as contracts
+22:30 Three-tier skill architecture for teams
+24:30 The community skills repository announcement
+26:00 Skills are what persists
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/your-ai-skills-fail-10-of-the-time?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the skills ecosystem when agents now call skills more often than humans do?
+
+The common story is that skills are just personal configuration files from October — but the reality is that skills have become organizational infrastructure, and most teams haven't updated their approach to match.
+
+In this video, I share the inside scoop on how to build agent-readable skills that actually compound:
+
+ • Why the description field is where most skills go to die
+ • How agent-first design changes handoffs and contracts
+ • What three-tier skill architecture looks like for teams
+ • Where community repositories fill the domain-specific gap
+
+Builders who keep treating skills as glorified prompts will miss the compounding advantage — the practitioners who version, test, and share skills are pulling ahead every week.
+
+Chapters
+00:00 Skills launched in October, everything changed since
+02:30 Four big trends reshaping the skills landscape
+05:00 Skills compound, prompts evaporate
+07:00 The specialist stack pattern in production
+09:30 Real estate GP with 50,000 lines of skills
+11:30 How to build a skill that actually works
+14:00 The single-line description gotcha
+16:00 Methodology body: reasoning over procedures
+18:00 Agent-first skill design principles
+20:30 Descriptions as routing signals, outputs as contracts
+22:30 Three-tier skill architecture for teams
+24:30 The community skills repository announcement
+26:00 Skills are what persists
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/0cVuMHaYEHE/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:26:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>48 Days. That's How Long Before the Helium Runs Out for AI Chips.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/48_Days._That_s_How_Long_Before_the_Helium_Runs_Out_for_AI_Chips._sTkqCREdMXo.m4a</guid>
+      <pubDate>Mon, 30 Mar 2026 22:34:04 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/48_Days._That_s_How_Long_Before_the_Helium_Runs_Out_for_AI_Chips._sTkqCREdMXo.m4a" length="42308038" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-33-of-the-worlds?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening with the physical infrastructure behind AI? The common story is that AI spending is unstoppable — but the reality is more complicated.
+
+In this video, I share the inside scoop on how a missile strike at a Qatari refinery is threatening the entire AI chip supply chain:
+
+ • Why helium is irreplaceable inside advanced semiconductor fabrication
+ • How the Ras Laffan shutdown flows directly into HBM and AI accelerator supply
+ • What LNG disruptions mean for energy costs at East Asian chip fabs
+ • Where China's geopolitical advantage in helium and energy is quietly compounding
+
+The operators, planners, and builders betting on AI infrastructure need to understand this isn't a short-term blip — it's a structural cost and supply shock that will reprice everything from laptops to hyperscaler inference.
+
+Chapters
+00:00 The trillion-dollar AI bet now at risk
+01:20 Helium: AI's invisible physical input
+02:45 What happened at Ras Laffan
+04:00 How helium works inside chip fabs
+05:30 EUV lithography and noble gas dependency
+07:00 No substitute, no easy workaround
+08:15 South Korea, SK Hynix, and Samsung exposure
+09:30 TSMC, Taiwan, and LNG dependency
+11:00 How long could this shutdown last
+12:30 LNG prices and East Asian energy costs
+14:00 Europe's data center vulnerability
+15:15 China's geopolitical power play
+17:00 Power of Siberia 2 and domestic helium scaling
+18:30 What this means for memory prices and your compute budget
+20:00 Buy compute now — practical takeaways
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-33-of-the-worlds?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening with the physical infrastructure behind AI? The common story is that AI spending is unstoppable — but the reality is more complicated.
+
+In this video, I share the inside scoop on how a missile strike at a Qatari refinery is threatening the entire AI chip supply chain:
+
+ • Why helium is irreplaceable inside advanced semiconductor fabrication
+ • How the Ras Laffan shutdown flows directly into HBM and AI accelerator supply
+ • What LNG disruptions mean for energy costs at East Asian chip fabs
+ • Where China's geopolitical advantage in helium and energy is quietly compounding
+
+The operators, planners, and builders betting on AI infrastructure need to understand this isn't a short-term blip — it's a structural cost and supply shock that will reprice everything from laptops to hyperscaler inference.
+
+Chapters
+00:00 The trillion-dollar AI bet now at risk
+01:20 Helium: AI's invisible physical input
+02:45 What happened at Ras Laffan
+04:00 How helium works inside chip fabs
+05:30 EUV lithography and noble gas dependency
+07:00 No substitute, no easy workaround
+08:15 South Korea, SK Hynix, and Samsung exposure
+09:30 TSMC, Taiwan, and LNG dependency
+11:00 How long could this shutdown last
+12:30 LNG prices and East Asian energy costs
+14:00 Europe's data center vulnerability
+15:15 China's geopolitical power play
+17:00 Power of Siberia 2 and domestic helium scaling
+18:30 What this means for memory prices and your compute budget
+20:00 Buy compute now — practical takeaways
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/sTkqCREdMXo/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:22:21</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>A Markdown File Just Replaced Your Most Expensive Design Meeting. (Google Stitch)</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/A_Markdown_File_Just_Replaced_Your_Most_Expensive_Design_Meeting._Google_Stitch_CDClFY-R0dI.m4a</guid>
