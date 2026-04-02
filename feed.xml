@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Thu, 02 Apr 2026 03:00:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 13:14:06 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,75 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Europe and Canada DITCH USA - Launch Digital Trade Pact, American Tech Must Comply</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Europe_and_Canada_DITCH_USA_-_Launch_Digital_Trade_Pact_American_Tech_Must_Compl_1QbsgG8xwTs.m4a</guid>
+      <pubDate>Thu, 02 Apr 2026 13:14:06 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Europe_and_Canada_DITCH_USA_-_Launch_Digital_Trade_Pact_American_Tech_Must_Compl_1QbsgG8xwTs.m4a" length="24596482" type="audio/mp4"></enclosure>
+      <description>While Washington debates and delays, others are writing the rules of the digital world—without it. A quiet agreement between Europe and Canada may define how AI, data, and platforms operate for decades—and the US isn’t in the room.
+
+🌐 New digital bloc: The EU and Canada launched negotiations for a comprehensive Digital Trade Agreement covering AI, data, and cybersecurity
+🤝 Architects of rules: Maroš Šefčovič and Maninder Sidhu are building shared regulatory standards across the digital economy
+📜 Regulatory power shift: The framework builds on CETA but extends into AI governance, digital identity, and platform rules
+🧠 AI alignment: Canada is moving toward the EU’s AI regulatory model, creating a unified compliance zone for advanced technologies
+🔐 Data sovereignty: GDPR-style rules expand across the Atlantic, forcing companies to adopt stricter data handling practices
+🏗️ Market leverage: Any US tech firm entering this $20T+ market must comply with rules it didn’t help write
+📉 Strategic exclusion: The United States—lacking federal AI and data frameworks—becomes a rule-taker, not a rule-maker
+
+📖✨ Get a FREE Chapter of Awake — “The First Lesson” ✨📖
+👉 https://houseofel.net/critical-thinking/
+
+📘✨ AWAKE — 10% Off While Subscriber Discount Lasts ✨📘
+👉 https://houseofell.gumroad.com/l/isdum/0l7jve2
+
+🗣️ NEW — Awake: The AUDIOBOOK
+A 3h+ audio journey into the practice of critical thinking, narrated by El.
+🎧 Offered discounted with the book or available separately
+👉https://houseofell.gumroad.com/l/awake-audiobook/3ih3d5h
+
+🧠 Help Shape the New Course: AI Fluency for Thinkers
+I'm building a course to help people navigate AI with clarity and confidence.
+Take 2 minutes to shape the curriculum and get early access:
+👉 https://houseofel.net/ai-course/
+
+☕ Support the channel on Ko-fi:
+➡️ https://ko-fi.com/houseofel
+
+#Geopolitics #DigitalEconomy #AIRegulation #EU #Canada #TechPolicy #DataPrivacy #HouseOfEl</description>
+      <itunes:summary>While Washington debates and delays, others are writing the rules of the digital world—without it. A quiet agreement between Europe and Canada may define how AI, data, and platforms operate for decades—and the US isn’t in the room.
+
+🌐 New digital bloc: The EU and Canada launched negotiations for a comprehensive Digital Trade Agreement covering AI, data, and cybersecurity
+🤝 Architects of rules: Maroš Šefčovič and Maninder Sidhu are building shared regulatory standards across the digital economy
+📜 Regulatory power shift: The framework builds on CETA but extends into AI governance, digital identity, and platform rules
+🧠 AI alignment: Canada is moving toward the EU’s AI regulatory model, creating a unified compliance zone for advanced technologies
+🔐 Data sovereignty: GDPR-style rules expand across the Atlantic, forcing companies to adopt stricter data handling practices
+🏗️ Market leverage: Any US tech firm entering this $20T+ market must comply with rules it didn’t help write
+📉 Strategic exclusion: The United States—lacking federal AI and data frameworks—becomes a rule-taker, not a rule-maker
+
+📖✨ Get a FREE Chapter of Awake — “The First Lesson” ✨📖
+👉 https://houseofel.net/critical-thinking/
+
+📘✨ AWAKE — 10% Off While Subscriber Discount Lasts ✨📘
+👉 https://houseofell.gumroad.com/l/isdum/0l7jve2
+
+🗣️ NEW — Awake: The AUDIOBOOK
+A 3h+ audio journey into the practice of critical thinking, narrated by El.
+🎧 Offered discounted with the book or available separately
+👉https://houseofell.gumroad.com/l/awake-audiobook/3ih3d5h
+
+🧠 Help Shape the New Course: AI Fluency for Thinkers
+I'm building a course to help people navigate AI with clarity and confidence.
+Take 2 minutes to shape the curriculum and get early access:
+👉 https://houseofel.net/ai-course/
+
+☕ Support the channel on Ko-fi:
+➡️ https://ko-fi.com/houseofel
+
+#Geopolitics #DigitalEconomy #AIRegulation #EU #Canada #TechPolicy #DataPrivacy #HouseOfEl</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/1QbsgG8xwTs/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:12:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Anthropic's New Model Is Better. Your AI System Isn't Ready for It.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_s_New_Model_Is_Better._Your_AI_System_Isn_t_Ready_for_It._hV5_XSEBZNg.m4a</guid>
