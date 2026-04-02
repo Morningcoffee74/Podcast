@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Mon, 30 Mar 2026 22:35:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 03:00:31 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,89 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Anthropic's New Model Is Better. Your AI System Isn't Ready for It.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_s_New_Model_Is_Better._Your_AI_System_Isn_t_Ready_for_It._hV5_XSEBZNg.m4a</guid>
+      <pubDate>Thu, 02 Apr 2026 03:00:31 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_s_New_Model_Is_Better._Your_AI_System_Isn_t_Ready_for_It._hV5_XSEBZNg.m4a" length="58230159" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/anthropic-just-built-a-model-that?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside Anthropic when Claude Mythos leaks and security researchers say it found zero-day vulnerabilities in a 50,000-star GitHub repo within minutes?
+
+The common story is that bigger models just mean better benchmarks — but the reality is that Mythos is a step change that will force you to simplify everything you've built around weaker models.
+
+In this video, I share the inside scoop on how to prepare before Mythos drops:
+
+ • Why your 3,000-token system prompts are about to become liabilities
+ • How retrieval architecture shifts when the model fills its own context
+ • What hard-coded domain knowledge you can finally delete
+ • Where verification gates need to move in your pipeline
+
+Builders who keep compensating for model limitations instead of simplifying toward outcomes will be left behind — the bitter lesson is that smarter models reward letting go.
+
+Chapters
+00:00 Claude Mythos leaked and everything changed
+02:30 Security researchers say it's terrifyingly good
+05:00 The bitter lesson of building with LLMs
+07:30 Question 1: Check your prompt scaffolding
+10:30 Specify what and why, not how
+13:00 Question 2: Retrieval architecture and memory
+16:00 Let the model fill its own context window
+18:30 Question 3: Hard-coded domain knowledge
+21:00 The art of prompting is what you leave out
+23:00 Question 4: Verification and eval gates
+26:00 Why Mythos will only be on max plans
+28:30 What a Mythos-ready system looks like
+30:30 Simplify before the train leaves the station
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/anthropic-just-built-a-model-that?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside Anthropic when Claude Mythos leaks and security researchers say it found zero-day vulnerabilities in a 50,000-star GitHub repo within minutes?
+
+The common story is that bigger models just mean better benchmarks — but the reality is that Mythos is a step change that will force you to simplify everything you've built around weaker models.
+
+In this video, I share the inside scoop on how to prepare before Mythos drops:
+
+ • Why your 3,000-token system prompts are about to become liabilities
+ • How retrieval architecture shifts when the model fills its own context
+ • What hard-coded domain knowledge you can finally delete
+ • Where verification gates need to move in your pipeline
+
+Builders who keep compensating for model limitations instead of simplifying toward outcomes will be left behind — the bitter lesson is that smarter models reward letting go.
+
+Chapters
+00:00 Claude Mythos leaked and everything changed
+02:30 Security researchers say it's terrifyingly good
+05:00 The bitter lesson of building with LLMs
+07:30 Question 1: Check your prompt scaffolding
+10:30 Specify what and why, not how
+13:00 Question 2: Retrieval architecture and memory
+16:00 Let the model fill its own context window
+18:30 Question 3: Hard-coded domain knowledge
+21:00 The art of prompting is what you leave out
+23:00 Question 4: Verification and eval gates
+26:00 Why Mythos will only be on max plans
+28:30 What a Mythos-ready system looks like
+30:30 Simplify before the train leaves the station
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/hV5_XSEBZNg/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:31:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Anthropic Just Gave You 3 Tools That Work While You're Gone.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Anthropic_Just_Gave_You_3_Tools_That_Work_While_You_re_Gone._3e7gmNPr5Vo.m4a</guid>
