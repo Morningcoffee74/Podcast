@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Thu, 02 Apr 2026 13:14:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 01:00:01 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,89 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces.</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/I_Broke_Down_Anthropic_s_2.5_Billion_Leak._Your_Agent_Is_Missing_12_Critical_Pie_FtCdYhspm7w.m4a</guid>
+      <pubDate>Sat, 04 Apr 2026 01:00:01 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/I_Broke_Down_Anthropic_s_2.5_Billion_Leak._Your_Agent_Is_Missing_12_Critical_Pie_FtCdYhspm7w.m4a" length="50612740" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts and Skill: https://natesnewsletter.substack.com/p/your-agent-has-12-blind-spots-you?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the $2.5 billion run rate product when Anthropic accidentally leaks the entire Claude Code architecture?
+
+The common story is that the leak reveals upcoming features — but the reality is that the secret sauce is 12 boring primitives that make agents actually work at scale, and most teams skip half of them.
+
+In this video, I share the inside scoop on what Claude Code teaches us about building production agents:
+
+ • Why tool registries with metadata-first design are day one non-negotiables
+ • How an 18-module security architecture protects a single bash tool
+ • What session persistence and workflow state actually need to capture
+ • Where most agentic projects die from premature complexity
+
+Builders who keep chasing the glamorous AI parts will keep shipping demos that crash — the leak proves that successful agents are 80% plumbing and 20% model.
+
+Chapters
+00:00 Anthropic accidentally leaked Claude Code
+02:30 Two leaks in one week — velocity vs discipline
+05:00 Twelve primitives in three tiers
+07:00 Primitive 1: Tool registry with metadata-first design
+09:00 Primitive 2: Permission system and trust tiers
+11:30 Primitive 3: Session persistence that survives crashes
+13:30 Primitive 4: Workflow state vs conversation state
+15:30 Primitive 5: Token budget tracking with pre-turn checks
+17:00 Primitives 6-8: Streaming events, logging, verification
+20:00 Advanced: Tool pool assembly and compaction
+22:30 Claude Code's six built-in agent types
+24:30 The agentic harness skill I'm releasing
+26:00 Building agents is 80% plumbing
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts and Skill: https://natesnewsletter.substack.com/p/your-agent-has-12-blind-spots-you?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside the $2.5 billion run rate product when Anthropic accidentally leaks the entire Claude Code architecture?
+
+The common story is that the leak reveals upcoming features — but the reality is that the secret sauce is 12 boring primitives that make agents actually work at scale, and most teams skip half of them.
+
+In this video, I share the inside scoop on what Claude Code teaches us about building production agents:
+
+ • Why tool registries with metadata-first design are day one non-negotiables
+ • How an 18-module security architecture protects a single bash tool
+ • What session persistence and workflow state actually need to capture
+ • Where most agentic projects die from premature complexity
+
+Builders who keep chasing the glamorous AI parts will keep shipping demos that crash — the leak proves that successful agents are 80% plumbing and 20% model.
+
+Chapters
+00:00 Anthropic accidentally leaked Claude Code
+02:30 Two leaks in one week — velocity vs discipline
+05:00 Twelve primitives in three tiers
+07:00 Primitive 1: Tool registry with metadata-first design
+09:00 Primitive 2: Permission system and trust tiers
+11:30 Primitive 3: Session persistence that survives crashes
+13:30 Primitive 4: Workflow state vs conversation state
+15:30 Primitive 5: Token budget tracking with pre-turn checks
+17:00 Primitives 6-8: Streaming events, logging, verification
+20:00 Advanced: Tool pool assembly and compaction
+22:30 Claude Code's six built-in agent types
+24:30 The agentic harness skill I'm releasing
+26:00 Building agents is 80% plumbing
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+Listen to this video as a podcast.
+- Spotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/FtCdYhspm7w/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:26:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Europe and Canada DITCH USA - Launch Digital Trade Pact, American Tech Must Comply</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Europe_and_Canada_DITCH_USA_-_Launch_Digital_Trade_Pact_American_Tech_Must_Compl_1QbsgG8xwTs.m4a</guid>
