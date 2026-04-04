@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 01:00:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 11:28:44 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,71 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Claude Code + RAG-Anything = LIMITLESS</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_RAG-Anything_LIMITLESS_rJCgvnXgOiU.m4a</guid>
+      <pubDate>Sat, 04 Apr 2026 11:28:44 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_RAG-Anything_LIMITLESS_rJCgvnXgOiU.m4a" length="43504087" type="audio/mp4"></enclosure>
+      <description>⚡Master Claude Code, Build Your Agency, Land Your First Client⚡
+https://www.skool.com/chase-ai
+
+🔥FREE community🔥
+https://www.skool.com/chase-ai-community/classroom/4fe79bd0?md=fc9896c946704869a1b2f4064454a558
+
+💻 Need custom work? Book a consult 💻
+https://chaseai.io
+
+Lets unlock multi modal RAG with RAG-Anything.
+
+In this video, we build on our lightRAG base from yesterday, giving it the power to handle non text documents with the RAG Anything integration.
+
+⏰TIMESTAMPS:
+0:00 - Intro
+0:48 - RAG Anything
+3:22 - How it Works
+13:11 - Install &amp; Demo
+18:19 - Final Thoughts
+
+RESOURCES FROM THIS VIDEO:
+➡️ Master Claude Code: https://www.skool.com/chase-ai
+➡️ My Website: https://www.chaseai.io
+➡️ LightRAG GH: https://github.com/hkuds/lightrag
+➡️ RAG-Anything GH: https://github.com/HKUDS/RAG-Anything
+➡️ MinerU: https://github.com/opendatalab/MinerU
+
+#claudecode #lightrag #raganything</description>
+      <itunes:summary>⚡Master Claude Code, Build Your Agency, Land Your First Client⚡
+https://www.skool.com/chase-ai
+
+🔥FREE community🔥
+https://www.skool.com/chase-ai-community/classroom/4fe79bd0?md=fc9896c946704869a1b2f4064454a558
+
+💻 Need custom work? Book a consult 💻
+https://chaseai.io
+
+Lets unlock multi modal RAG with RAG-Anything.
+
+In this video, we build on our lightRAG base from yesterday, giving it the power to handle non text documents with the RAG Anything integration.
+
+⏰TIMESTAMPS:
+0:00 - Intro
+0:48 - RAG Anything
+3:22 - How it Works
+13:11 - Install &amp; Demo
+18:19 - Final Thoughts
+
+RESOURCES FROM THIS VIDEO:
+➡️ Master Claude Code: https://www.skool.com/chase-ai
+➡️ My Website: https://www.chaseai.io
+➡️ LightRAG GH: https://github.com/hkuds/lightrag
+➡️ RAG-Anything GH: https://github.com/HKUDS/RAG-Anything
+➡️ MinerU: https://github.com/opendatalab/MinerU
+
+#claudecode #lightrag #raganything</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/rJCgvnXgOiU/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:19:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces.</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/I_Broke_Down_Anthropic_s_2.5_Billion_Leak._Your_Agent_Is_Missing_12_Critical_Pie_FtCdYhspm7w.m4a</guid>
