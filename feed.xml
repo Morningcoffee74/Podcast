@@ -5,7 +5,7 @@
     <description>Private YouTube playlist podcast feed</description>
     <language>en-us</language>
     <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
-    <lastBuildDate>Sat, 04 Apr 2026 11:28:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 18:43:59 GMT</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <image>
       <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
@@ -16,6 +16,222 @@
     <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>7 Powerful Claude COWORK Tips I Wish I'd Known from Day One</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/7_Powerful_Claude_COWORK_Tips_I_Wish_I_d_Known_from_Day_One_SzOI5zU0pLw.m4a</guid>
+      <pubDate>Sun, 05 Apr 2026 18:43:59 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/7_Powerful_Claude_COWORK_Tips_I_Wish_I_d_Known_from_Day_One_SzOI5zU0pLw.m4a" length="29822398" type="audio/mp4"></enclosure>
+      <description>Claude Cowork Tips and settings.
+
+Join 7,000+ Professionals learning to do 5 days work in 8 hours: https://eliotprince.com
+
+Get 150+ Prompts and Ai workflows in my AI Recipe vault: https://eliot.kit.com/ai-recipe-vault
+
+Claude Cowork is genuinely one of the most powerful AI tools out there right now. But most people are barely scratching the surface.
+
+In this video I'm walking you through 7 tips I wish I'd known from the start... including how to create a sandbox for testing, write Claude.md instructions, connect your Claude skills, launch projects properly, find a connector that'll blow your mind, sync your Google Drive, and schedule tasks automatically.</description>
+      <itunes:summary>Claude Cowork Tips and settings.
+
+Join 7,000+ Professionals learning to do 5 days work in 8 hours: https://eliotprince.com
+
+Get 150+ Prompts and Ai workflows in my AI Recipe vault: https://eliot.kit.com/ai-recipe-vault
+
+Claude Cowork is genuinely one of the most powerful AI tools out there right now. But most people are barely scratching the surface.
+
+In this video I'm walking you through 7 tips I wish I'd known from the start... including how to create a sandbox for testing, write Claude.md instructions, connect your Claude skills, launch projects properly, find a connector that'll blow your mind, sync your Google Drive, and schedule tasks automatically.</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/SzOI5zU0pLw/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:15:36</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>567 Hours of Claude Code Lessons in 20 Minutes</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/567_Hours_of_Claude_Code_Lessons_in_20_Minutes_rVEoyx349Hk.m4a</guid>
+      <pubDate>Sun, 05 Apr 2026 18:30:23 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/567_Hours_of_Claude_Code_Lessons_in_20_Minutes_rVEoyx349Hk.m4a" length="45925342" type="audio/mp4"></enclosure>
+      <description>⚡Master Claude Code, Build Your Agency, Land Your First Client ⚡
+https://www.skool.com/chase-ai
+
+🔥 FREE community with tons of AI resources 🔥 
+https://www.skool.com/chase-ai-community
+
+💻 Need custom work? Book a consult 💻
+https://chaseai.io
+
+My top tips and tricks you can begin implementing in Claude Code no matter your skill level. 
+
+⏰TIMESTAMPS:
+0:00 Intro
+0:37 Install
+0:58 IDE
+1:39 Permissions
+2:53 Plan Mode
+4:12 Slash Commands
+5:43 Context Window Management
+8:45 Git
+9:58 Debugging
+10:48 Research Agent
+11:38 AI Dev Mindset
+14:10 Skills
+15:57 Agent Teams
+17:40 MCPs
+18:41 Frameworks
+19:28 Worktrees
+20:15 Masterclass
+
+RESOURCES FROM THIS VIDEO:
+➡️ Master Claude Code: https://www.skool.com/chase-ai
+➡️ My Website: https://www.chaseai.io
+➡️ Claude Code Docs: https://code.claude.com/docs/en/overview
+
+#claudecode</description>
+      <itunes:summary>⚡Master Claude Code, Build Your Agency, Land Your First Client ⚡
+https://www.skool.com/chase-ai
+
+🔥 FREE community with tons of AI resources 🔥 
+https://www.skool.com/chase-ai-community
+
+💻 Need custom work? Book a consult 💻
+https://chaseai.io
+
+My top tips and tricks you can begin implementing in Claude Code no matter your skill level. 
+
+⏰TIMESTAMPS:
+0:00 Intro
+0:37 Install
+0:58 IDE
+1:39 Permissions
+2:53 Plan Mode
+4:12 Slash Commands
+5:43 Context Window Management
+8:45 Git
+9:58 Debugging
+10:48 Research Agent
+11:38 AI Dev Mindset
+14:10 Skills
+15:57 Agent Teams
+17:40 MCPs
+18:41 Frameworks
+19:28 Worktrees
+20:15 Masterclass
+
+RESOURCES FROM THIS VIDEO:
+➡️ Master Claude Code: https://www.skool.com/chase-ai
+➡️ My Website: https://www.chaseai.io
+➡️ Claude Code Docs: https://code.claude.com/docs/en/overview
+
+#claudecode</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/rVEoyx349Hk/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:20:48</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Claude Code vs Codex: The Decision That Compounds Every Week You Delay That Nobody Is Talking About</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_vs_Codex_The_Decision_That_Compounds_Every_Week_You_Delay_That_Nobod_09sFAO7pklo.m4a</guid>
+      <pubDate>Sun, 05 Apr 2026 18:14:46 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_vs_Codex_The_Decision_That_Compounds_Every_Week_You_Delay_That_Nobod_09sFAO7pklo.m4a" length="56187356" type="audio/mp4"></enclosure>
+      <description>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/same-model-78-vs-42-the-harness-made?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside AI coding tools that nobody's comparing? The common story is that Claude vs. ChatGPT is a model competition — but the reality is that the model is the least important part.
+
+In this video, I share the inside scoop on why the AI harness matters more than the model:
+
+- Why the same Claude model scored 78% vs. 42% on identical benchmarks
+- How Claude Code and Codex embody opposite philosophies of AI - collaboration
+- What harness lock-in actually costs teams who switch tools later
+- Where non-technical leaders are making the wrong procurement decisions
+
+The teams getting this right aren't choosing the smartest AI agent — they're choosing the architecture that matches how they work, and that decision compounds every quarter.
+
+Chapters
+00:00 The harness vs. the model — what everyone gets wrong
+01:45 Why nobody compares AI harnesses
+03:20 Same model, double the performance: the benchmark that proves it
+04:50 How Anthropic built Claude Code's harness
+07:10 How OpenAI built Codex's harness
+09:30 Five ways the harnesses are diverging
+13:45 State and memory: where institutional knowledge lives
+16:20 Context management and tool integration
+19:00 Multi-agent coordination: collaboration vs. isolation
+21:30 Harness lock-in: the cost nobody is pricing in
+24:00 What this means for engineers and engineering leaders
+26:30 Why non-technical leaders need to understand this now
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/</description>
+      <itunes:summary>My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/p/same-model-78-vs-42-the-harness-made?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
+___________________
+What's really happening inside AI coding tools that nobody's comparing? The common story is that Claude vs. ChatGPT is a model competition — but the reality is that the model is the least important part.
+
+In this video, I share the inside scoop on why the AI harness matters more than the model:
+
+- Why the same Claude model scored 78% vs. 42% on identical benchmarks
+- How Claude Code and Codex embody opposite philosophies of AI - collaboration
+- What harness lock-in actually costs teams who switch tools later
+- Where non-technical leaders are making the wrong procurement decisions
+
+The teams getting this right aren't choosing the smartest AI agent — they're choosing the architecture that matches how they work, and that decision compounds every quarter.
+
+Chapters
+00:00 The harness vs. the model — what everyone gets wrong
+01:45 Why nobody compares AI harnesses
+03:20 Same model, double the performance: the benchmark that proves it
+04:50 How Anthropic built Claude Code's harness
+07:10 How OpenAI built Codex's harness
+09:30 Five ways the harnesses are diverging
+13:45 State and memory: where institutional knowledge lives
+16:20 Context management and tool integration
+19:00 Multi-agent coordination: collaboration vs. isolation
+21:30 Harness lock-in: the cost nobody is pricing in
+24:00 What this means for engineers and engineering leaders
+26:30 Why non-technical leaders need to understand this now
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/09sFAO7pklo/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:29:55</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)</title>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Why_2026_Is_the_Year_to_Build_a_Second_Brain_And_Why_You_NEED_One_0TpON5T-Sw4.m4a</guid>
+      <pubDate>Sun, 05 Apr 2026 17:59:01 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Why_2026_Is_the_Year_to_Build_a_Second_Brain_And_Why_You_NEED_One_0TpON5T-Sw4.m4a" length="55498599" type="audio/mp4"></enclosure>
+      <description>What's really happening when AI enables active systems instead of passive storage? 
+
+The common story is that second brains are just better note-taking, but the reality is more complicated when AI loops can classify, route, and surface information automatically while you sleep. 
+
+In this video, I share the inside scoop on building a second brain with Slack, Notion, Zapier, and Claude or ChatGPT that actually works for more than one in twenty people:
+
+* Why traditional storage systems fail because they're passive and require you to remember what you stored and where you put it
+* How AI loops handle classification, routing, and surfacing so the system comes to you instead of waiting to be searched 
+* What eight building blocks make second brain systems actually work, from frictionless capture to confidence filters to daily nudges 
+* Where engineering principles translate into no-code automation that non-engineers can build, maintain, and trust
+
+For knowledge workers navigating 2026, for the first time in human history you can build systems that work while you sleep, closing open loops and nudging you toward what matters without requiring a single line of code.
+
+Subscribe for daily AI strategy and news. 
+For playbooks and analysis: https://natesnewsletter.substack.com/</description>
+      <itunes:summary>What's really happening when AI enables active systems instead of passive storage? 
+
+The common story is that second brains are just better note-taking, but the reality is more complicated when AI loops can classify, route, and surface information automatically while you sleep. 
+
+In this video, I share the inside scoop on building a second brain with Slack, Notion, Zapier, and Claude or ChatGPT that actually works for more than one in twenty people:
+
+* Why traditional storage systems fail because they're passive and require you to remember what you stored and where you put it
+* How AI loops handle classification, routing, and surfacing so the system comes to you instead of waiting to be searched 
+* What eight building blocks make second brain systems actually work, from frictionless capture to confidence filters to daily nudges 
+* Where engineering principles translate into no-code automation that non-engineers can build, maintain, and trust
+
+For knowledge workers navigating 2026, for the first time in human history you can build systems that work while you sleep, closing open loops and nudging you toward what matters without requiring a single line of code.
+
+Subscribe for daily AI strategy and news. 
+For playbooks and analysis: https://natesnewsletter.substack.com/</itunes:summary>
+      <itunes:image href="https://i.ytimg.com/vi_webp/0TpON5T-Sw4/maxresdefault.webp"></itunes:image>
+      <itunes:duration>00:30:06</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>Claude Code + RAG-Anything = LIMITLESS</title>
       <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_RAG-Anything_LIMITLESS_rJCgvnXgOiU.m4a</guid>
@@ -1755,122 +1971,6 @@ For deeper playbooks and analysis: https://natesnewsletter.substack.com/</itunes
 23:53 What next</itunes:summary>
       <itunes:image href="https://i.ytimg.com/vi_webp/UwyUHOq1hIA/maxresdefault.webp"></itunes:image>
       <itunes:duration>00:24:05</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)</title>
-      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Why_2026_Is_the_Year_to_Build_a_Second_Brain_And_Why_You_NEED_One_0TpON5T-Sw4.m4a</guid>
-      <pubDate>Fri, 06 Mar 2026 17:23:04 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Why_2026_Is_the_Year_to_Build_a_Second_Brain_And_Why_You_NEED_One_0TpON5T-Sw4.m4a" length="56069784" type="audio/mp4"></enclosure>
-      <description>What's really happening when AI enables active systems instead of passive storage? The common story is that second brains are just better note-taking, but the reality is more complicated when AI loops can classify, route, and surface information automatically while you sleep. In this video, I share the inside scoop on building a second brain with Slack, Notion, Zapier, and Claude or ChatGPT that actually works for more than one in twenty people:
-
-* Why traditional storage systems fail because they're passive and require you to remember what you stored and where you put it
-* How AI loops handle classification, routing, and surfacing so the system comes to you instead of waiting to be searched 
-* What eight building blocks make second brain systems actually work, from frictionless capture to confidence filters to daily nudges 
-* Where engineering principles translate into no-code automation that non-engineers can build, maintain, and trust
-
-For knowledge workers navigating 2026, for the first time in human history you can build systems that work while you sleep, closing open loops and nudging you toward what matters without requiring a single line of code.
-Subscribe for daily AI strategy and news. 
-For playbooks and analysis: https://natesnewsletter.substack.com/
-© Nate B. Jones 2026</description>
-      <itunes:summary>What's really happening when AI enables active systems instead of passive storage? The common story is that second brains are just better note-taking, but the reality is more complicated when AI loops can classify, route, and surface information automatically while you sleep. In this video, I share the inside scoop on building a second brain with Slack, Notion, Zapier, and Claude or ChatGPT that actually works for more than one in twenty people:
-
-* Why traditional storage systems fail because they're passive and require you to remember what you stored and where you put it
-* How AI loops handle classification, routing, and surfacing so the system comes to you instead of waiting to be searched 
-* What eight building blocks make second brain systems actually work, from frictionless capture to confidence filters to daily nudges 
-* Where engineering principles translate into no-code automation that non-engineers can build, maintain, and trust
-
-For knowledge workers navigating 2026, for the first time in human history you can build systems that work while you sleep, closing open loops and nudging you toward what matters without requiring a single line of code.
-Subscribe for daily AI strategy and news. 
-For playbooks and analysis: https://natesnewsletter.substack.com/
-© Nate B. Jones 2026</itunes:summary>
-      <itunes:image href="https://i.ytimg.com/vi_webp/0TpON5T-Sw4/maxresdefault.webp"></itunes:image>
-      <itunes:duration>00:30:06</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>Claude Code vs Codex: The Decision That Compounds Every Week You Delay That Nobody Is Talking About</title>
-      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_vs_Codex_The_Decision_That_Compounds_Every_Week_You_Delay_That_Nobod_09sFAO7pklo.m4a</guid>
-      <pubDate>Fri, 06 Mar 2026 17:22:25 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/Claude_Code_vs_Codex_The_Decision_That_Compounds_Every_Week_You_Delay_That_Nobod_09sFAO7pklo.m4a" length="57171156" type="audio/mp4"></enclosure>
-      <description>My site: https://natebjones.com
-Full Story w/ Prompts: https://natesnewsletter.substack.com/p/same-model-78-vs-42-the-harness-made?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
-___________________
-What's really happening inside AI coding tools that nobody's comparing? The common story is that Claude vs. ChatGPT is a model competition — but the reality is that the model is the least important part.
-
-In this video, I share the inside scoop on why the AI harness matters more than the model:
-
-- Why the same Claude model scored 78% vs. 42% on identical benchmarks
-- How Claude Code and Codex embody opposite philosophies of AI - collaboration
-- What harness lock-in actually costs teams who switch tools later
-- Where non-technical leaders are making the wrong procurement decisions
-
-The teams getting this right aren't choosing the smartest AI agent — they're choosing the architecture that matches how they work, and that decision compounds every quarter.
-
-Chapters
-00:00 The harness vs. the model — what everyone gets wrong
-01:45 Why nobody compares AI harnesses
-03:20 Same model, double the performance: the benchmark that proves it
-04:50 How Anthropic built Claude Code's harness
-07:10 How OpenAI built Codex's harness
-09:30 Five ways the harnesses are diverging
-13:45 State and memory: where institutional knowledge lives
-16:20 Context management and tool integration
-19:00 Multi-agent coordination: collaboration vs. isolation
-21:30 Harness lock-in: the cost nobody is pricing in
-24:00 What this means for engineers and engineering leaders
-26:30 Why non-technical leaders need to understand this now
-
-Subscribe for daily AI strategy and news.
-For deeper playbooks and analysis: https://natesnewsletter.substack.com/</description>
-      <itunes:summary>My site: https://natebjones.com
-Full Story w/ Prompts: https://natesnewsletter.substack.com/p/same-model-78-vs-42-the-harness-made?r=1z4sm5&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true
-___________________
-What's really happening inside AI coding tools that nobody's comparing? The common story is that Claude vs. ChatGPT is a model competition — but the reality is that the model is the least important part.
-
-In this video, I share the inside scoop on why the AI harness matters more than the model:
-
-- Why the same Claude model scored 78% vs. 42% on identical benchmarks
-- How Claude Code and Codex embody opposite philosophies of AI - collaboration
-- What harness lock-in actually costs teams who switch tools later
-- Where non-technical leaders are making the wrong procurement decisions
-
-The teams getting this right aren't choosing the smartest AI agent — they're choosing the architecture that matches how they work, and that decision compounds every quarter.
-
-Chapters
-00:00 The harness vs. the model — what everyone gets wrong
-01:45 Why nobody compares AI harnesses
-03:20 Same model, double the performance: the benchmark that proves it
-04:50 How Anthropic built Claude Code's harness
-07:10 How OpenAI built Codex's harness
-09:30 Five ways the harnesses are diverging
-13:45 State and memory: where institutional knowledge lives
-16:20 Context management and tool integration
-19:00 Multi-agent coordination: collaboration vs. isolation
-21:30 Harness lock-in: the cost nobody is pricing in
-24:00 What this means for engineers and engineering leaders
-26:30 Why non-technical leaders need to understand this now
-
-Subscribe for daily AI strategy and news.
-For deeper playbooks and analysis: https://natesnewsletter.substack.com/</itunes:summary>
-      <itunes:image href="https://i.ytimg.com/vi_webp/09sFAO7pklo/maxresdefault.webp"></itunes:image>
-      <itunes:duration>00:29:55</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>567 Hours of Claude Code Lessons in 20 Minutes</title>
-      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/567_Hours_of_Claude_Code_Lessons_in_20_Minutes_rVEoyx349Hk.m4a</guid>
-      <pubDate>Fri, 06 Mar 2026 14:24:34 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/567_Hours_of_Claude_Code_Lessons_in_20_Minutes_rVEoyx349Hk.m4a" length="46595110" type="audio/mp4"></enclosure>
-      <itunes:duration>00:20:48</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>7 Powerful Claude COWORK Tips I Wish I'd Known from Day One</title>
-      <guid isPermaLink="false">https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/7_Powerful_Claude_COWORK_Tips_I_Wish_I_d_Known_from_Day_One_SzOI5zU0pLw.m4a</guid>
-      <pubDate>Fri, 06 Mar 2026 14:10:01 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/audio/7_Powerful_Claude_COWORK_Tips_I_Wish_I_d_Known_from_Day_One_SzOI5zU0pLw.m4a" length="30182969" type="audio/mp4"></enclosure>
-      <itunes:duration>00:15:36</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
