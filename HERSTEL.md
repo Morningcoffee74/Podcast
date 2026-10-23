@@ -5,6 +5,17 @@
 
 ---
 
+> ## ⚠️ EERST DOEN, VÓÓR JE DE APP WEER AANZET
+>
+> Doe je deze twee dingen niet, dan loopt de app op precies dezelfde manier vast als in 2026:
+>
+> - [ ] **1. yt-dlp bijwerken.** Voer `brew upgrade yt-dlp` uit. Met een oude versie weigert YouTube downloads (`HTTP Error 403: Forbidden`).
+> - [ ] **2. Bestanden groter dan 100 MB voorkomen.** Pas `podcast_sync.py` aan zoals beschreven in stap 2 hieronder. GitHub weigert bestanden boven 100 MB, en dan komt er **niets** meer aan in Overcast, ook geen kleine afleveringen.
+>
+> Claude: controleer deze twee punten altijd voordat je de achtergrondtaak weer activeert.
+
+---
+
 ## Wat is er gedaan (24-10-2026)
 
 | Actie | Details |
@@ -32,7 +43,7 @@ Er waren twee problemen, en die moet je oplossen voordat je de app weer aanzet:
 
 ## Stappen om het weer te laten werken
 
-### 1. yt-dlp bijwerken
+### 1. yt-dlp bijwerken (verplicht)
 ```bash
 brew upgrade yt-dlp
 ```
