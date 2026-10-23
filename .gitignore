@@ -1,0 +1,3 @@
+*.plist.uitgeschakeld
+.claude/
+.DS_Store

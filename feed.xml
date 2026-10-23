@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>YouTube Playlist</title>
+    <description>Private YouTube playlist podcast feed</description>
+    <language>en-us</language>
+    <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
+    <lastBuildDate>Fri, 23 Oct 2026 19:25:33 GMT</lastBuildDate>
+    <atom:link href="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <image>
+      <url>https://www.youtube.com/img/desktop/yt_1200.png</url>
+      <title>YouTube Playlist</title>
+      <link>https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/feed.xml</link>
+    </image>
+    <itunes:author>YouTube Playlist</itunes:author>
+    <itunes:image href="https://www.youtube.com/img/desktop/yt_1200.png"></itunes:image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    </channel>
+</rss>
