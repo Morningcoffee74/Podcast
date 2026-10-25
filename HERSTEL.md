@@ -1,7 +1,7 @@
 # HERSTEL – Podcast-sync weer aanzetten
 
 *Status sinds 24 oktober 2026: **uitgeschakeld en leeggemaakt.***
-*Dit bestand is bedoeld voor Antal én voor Claude. Zeg tegen Claude: "lees HERSTEL.md in ~/Development/podcast en zet de podcast-sync weer aan".*
+*Dit bestand is bedoeld voor Antal én voor Claude. Zeg tegen Claude: "lees HERSTEL.md in ~/Claude-Private/podcast en zet de podcast-sync weer aan".*
 
 ---
 
@@ -62,7 +62,7 @@ Let op: als yt-dlp een bestand overslaat vanwege `--max-filesize`, bestaat het o
   1. github.com → **New repository** → naam exact `Podcast` → **Public** → *geen* README toevoegen → Create.
   2. In de terminal:
      ```bash
-     cd ~/Development/podcast
+     cd ~/Claude-Private/podcast
      git push -u origin main
      ```
   3. Omdat de naam hetzelfde is, blijft de feed-URL ongewijzigd en hoef je in Overcast niets aan te passen.
@@ -76,11 +76,11 @@ Het script gebruikt de YouTube-login uit **Firefox**. Zorg dat je daar nog ingel
 
 ### 5. Eerst handmatig testen
 ```bash
-cd ~/Development/podcast
+cd ~/Claude-Private/podcast
 export PLAYLIST_URL="https://www.youtube.com/playlist?list=PLFnus5-VCd3ougLcTCBtfAxbkEnmykWxC"
 export FEED_BASE_URL="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main"
 export FEED_TOKEN="ongebruikt"
-export REPO_PATH="$HOME/Development/podcast"
+export REPO_PATH="$HOME/Claude-Private/podcast"
 python3 podcast_sync.py
 tail -30 ~/Library/Logs/podcast_sync.log
 git status -sb        # moet "## main...origin/main" tonen, ZONDER "[ahead N]"
@@ -91,7 +91,7 @@ Staat er `[ahead N]`? Dan is de push mislukt. Kijk in het log naar de regel met 
 
 ### 6. Automatisch laten draaien
 ```bash
-cd ~/Development/podcast
+cd ~/Claude-Private/podcast
 mv com.morningcoffee.podcast.plist.uitgeschakeld ~/Library/LaunchAgents/com.morningcoffee.podcast.plist
 launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.morningcoffee.podcast.plist
 launchctl list | grep morningcoffee    # moet de taak tonen
@@ -106,5 +106,5 @@ De feed-URL is `https://raw.githubusercontent.com/Morningcoffee74/Podcast/main/f
 ## Weer uitschakelen
 ```bash
 launchctl bootout gui/$(id -u)/com.morningcoffee.podcast
-mv ~/Library/LaunchAgents/com.morningcoffee.podcast.plist ~/Development/podcast/com.morningcoffee.podcast.plist.uitgeschakeld
+mv ~/Library/LaunchAgents/com.morningcoffee.podcast.plist ~/Claude-Private/podcast/com.morningcoffee.podcast.plist.uitgeschakeld
 ```

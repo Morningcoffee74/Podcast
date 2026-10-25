@@ -79,8 +79,8 @@ Voer dit uit in de terminal (elke regel apart, daarna Enter):
 export PLAYLIST_URL="https://www.youtube.com/playlist?list=JOUW_PLAYLIST_ID"
 export FEED_BASE_URL="https://raw.githubusercontent.com/Morningcoffee74/Podcast/main"
 export FEED_TOKEN="519119c7eca349020fbab31a5c068d1ad7f746884415f36216ee6bd09759ce88"
-export REPO_PATH="/Users/wb-antal/Development/podcast"
-python3 /Users/wb-antal/Development/podcast/podcast_sync.py
+export REPO_PATH="/Users/wb-antal/Claude-Private/podcast"
+python3 /Users/wb-antal/Claude-Private/podcast/podcast_sync.py
 ```
 
 Je ziet dan output in de terminal: het script haalt de playlist op, downloadt audio, en pusht naar GitHub.
@@ -141,7 +141,7 @@ Dit bestand staat **niet** in de repo — het is puur lokaal op de Mac. Het vert
 | `RunAtLoad` | `false` | Niet direct starten bij inloggen, pas na 4 uur |
 | `PLAYLIST_URL` | jouw playlist-URL | De YouTube-playlist om te volgen |
 | `FEED_BASE_URL` | `https://raw.githubusercontent.com/Morningcoffee74/Podcast/main` | Basis-URL voor de feed en audio-bestanden |
-| `REPO_PATH` | `/Users/wb-antal/Development/podcast` | Pad naar de lokale git-repo op de Mac |
+| `REPO_PATH` | `/Users/wb-antal/Claude-Private/podcast` | Pad naar de lokale git-repo op de Mac |
 | `PATH` | `/opt/homebrew/bin:...` | Zoekpad voor programma's (nodig omdat launchd geen Homebrew kent) |
 
 ### Script (`podcast_sync.py`)
